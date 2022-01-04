@@ -1,0 +1,28 @@
+body{
+    background-color: #e9d8a6;
+}
+h1{
+    color: #9b2226;
+    background-color: #dabc86;
+}
+#show_sketches{
+    float: right;
+}
+
+canvas{
+    border: 3px solid white;
+    margin-top: 55px;
+    border-radius: 20px;
+    animation-name: sketchBorder;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sketchBorder{
+    from{box-shadow: 2px 2px 35px red;}
+    to{ box-shadow: 2px 2px 35px blue;}
+}
+
+p{
+    font-size: 20px;
+}

@@ -11,7 +11,7 @@ h1{
 
 canvas{
     border: 3px solid white;
-    margin-top: 55px;
+    margin-top: 90px;
     border-radius: 20px;
     animation-name: sketchBorder;
     animation-duration: 3s;
